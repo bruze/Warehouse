@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8440EAC821BF4FD800F27E0F /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440EAC721BF4FD800F27E0F /* Agent.swift */; };
+		84729E0021BCA55E0090ADF9 /* Warrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84729DFF21BCA55E0090ADF9 /* Warrant.swift */; };
+		84729E0321BCA5DF0090ADF9 /* Warranted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84729E0221BCA5DF0090ADF9 /* Warranted.swift */; };
+		84729E0521BCA6DA0090ADF9 /* Warehouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84729E0421BCA6DA0090ADF9 /* Warehouse.swift */; };
+		84729E0821BCA7750090ADF9 /* Deputy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84729E0721BCA7750090ADF9 /* Deputy.swift */; };
+		84729E0A21BCC3890090ADF9 /* Deputied.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84729E0921BCC3890090ADF9 /* Deputied.swift */; };
 		DC2F7FA121753829003893D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F7FA021753829003893D2 /* AppDelegate.swift */; };
 		DC2F7FA321753829003893D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F7FA221753829003893D2 /* ViewController.swift */; };
 		DC2F7FA621753829003893D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2F7FA421753829003893D2 /* Main.storyboard */; };
@@ -26,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8440EAC721BF4FD800F27E0F /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		84729DFF21BCA55E0090ADF9 /* Warrant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warrant.swift; sourceTree = "<group>"; };
+		84729E0221BCA5DF0090ADF9 /* Warranted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warranted.swift; sourceTree = "<group>"; };
+		84729E0421BCA6DA0090ADF9 /* Warehouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warehouse.swift; sourceTree = "<group>"; };
+		84729E0721BCA7750090ADF9 /* Deputy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deputy.swift; sourceTree = "<group>"; };
+		84729E0921BCC3890090ADF9 /* Deputied.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deputied.swift; sourceTree = "<group>"; };
 		DC2F7F9D21753829003893D2 /* Warehouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Warehouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2F7FA021753829003893D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC2F7FA221753829003893D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8440EAC621BF4FC900F27E0F /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				8440EAC721BF4FD800F27E0F /* Agent.swift */,
+			);
+			path = Agent;
+			sourceTree = "<group>";
+		};
+		84729DFE21BCA4D20090ADF9 /* Warrant */ = {
+			isa = PBXGroup;
+			children = (
+				84729DFF21BCA55E0090ADF9 /* Warrant.swift */,
+			);
+			path = Warrant;
+			sourceTree = "<group>";
+		};
+		84729E0121BCA5D10090ADF9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				84729E0221BCA5DF0090ADF9 /* Warranted.swift */,
+				84729E0921BCC3890090ADF9 /* Deputied.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		84729E0621BCA7210090ADF9 /* Deputy */ = {
+			isa = PBXGroup;
+			children = (
+				84729E0721BCA7750090ADF9 /* Deputy.swift */,
+			);
+			path = Deputy;
+			sourceTree = "<group>";
+		};
 		DC2F7F9421753829003893D2 = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +122,17 @@
 		DC2F7F9F21753829003893D2 /* Warehouse */ = {
 			isa = PBXGroup;
 			children = (
+				8440EAC621BF4FC900F27E0F /* Agent */,
+				84729E0621BCA7210090ADF9 /* Deputy */,
+				84729E0121BCA5D10090ADF9 /* Tools */,
+				84729DFE21BCA4D20090ADF9 /* Warrant */,
 				DC2F7FA021753829003893D2 /* AppDelegate.swift */,
 				DC2F7FA221753829003893D2 /* ViewController.swift */,
 				DC2F7FA421753829003893D2 /* Main.storyboard */,
 				DC2F7FA72175382B003893D2 /* Assets.xcassets */,
 				DC2F7FA92175382B003893D2 /* LaunchScreen.storyboard */,
 				DC2F7FAC2175382B003893D2 /* Info.plist */,
+				84729E0421BCA6DA0090ADF9 /* Warehouse.swift */,
 			);
 			path = Warehouse;
 			sourceTree = "<group>";
@@ -197,7 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84729E0A21BCC3890090ADF9 /* Deputied.swift in Sources */,
+				84729E0821BCA7750090ADF9 /* Deputy.swift in Sources */,
+				84729E0021BCA55E0090ADF9 /* Warrant.swift in Sources */,
 				DC2F7FA321753829003893D2 /* ViewController.swift in Sources */,
+				84729E0321BCA5DF0090ADF9 /* Warranted.swift in Sources */,
+				8440EAC821BF4FD800F27E0F /* Agent.swift in Sources */,
+				84729E0521BCA6DA0090ADF9 /* Warehouse.swift in Sources */,
 				DC2F7FA121753829003893D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
